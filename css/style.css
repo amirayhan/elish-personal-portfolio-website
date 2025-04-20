@@ -1,0 +1,19 @@
+/* common css start */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color1: #343434;
+    --color2: #748182;
+    --color3: #f4f4f4;
+    --font1: "Poppins", sans-serif;
+    --font2: "Montserrat", sans-serif;
+}
+body {
+    font-family: var(--font1);
+    color: var(--c1);
+    font-weight: 400;
+}
+/* common css end */

@@ -1,0 +1,20 @@
+Simple Black and White Color 
+2 fonts
+Best Ui
+
+
+Header
+Banner/Hero
+Counter
+About
+Services
+Testimonial
+Partner
+Portfolio
+Blog
+Resume
+Skill
+Contact
+Footer
+
+
