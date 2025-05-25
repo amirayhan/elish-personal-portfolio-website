@@ -25,6 +25,13 @@ $(function () {
     //     );
     // });
 
+    // counter js
+    $(".counter").counterUp({
+        delay: 10,
+        time: 1000,
+    });
+
+    // lightbox js
     lightbox.option({
         resizeDuration: 200,
         wrapAround: true,
