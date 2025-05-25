@@ -5,11 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Elish | Personal Portfolio Website</title>
 
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+
         <!-- slick slider css -->
         <link rel="stylesheet" href="css/slick.css" />
 
         <!-- font awesome css-->
         <link rel="stylesheet" href="css/all.min.css" />
+
+        <!-- animated headline css -->
+        <link rel="stylesheet" href="css/animated.headline.css" />
+
+        <!-- animated headline css -->
+        <link rel="stylesheet" href="css/lightbox.css" />
 
         <!-- bootstrap css -->
         <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -19,12 +33,228 @@
     </head>
     <body>
         <!-- header section start -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">Elish.</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="social_media d-flex gap-4">
+                        <li>
+                            <a href="#"
+                                ><span><i class="fa-brands fa-linkedin-in"></i></span
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                ><span><i class="fa-brands fa-github"></i></span
+                            ></a>
+                        </li>
+                        <li><a class="button_1" href="#">Download CV</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--===== header section end =====-->
 
-        <!-- header section end -->
+        <!--===== banner section start =====-->
+        <section id="banner">
+            <div class="container">
+                <div class="banner_content">
+                    <h2>Hello</h2>
+                    <h1>I am Rayhan</h1>
+                    <h2 class="cd-headline clip is-full-width">
+                        <span>A Freelance</span>
+                        <span class="cd-words-wrapper">
+                            <b class="is-visible">Web Developer</b>
+                            <b>Freelancer</b>
+                            <b>Web Designer</b>
+                        </span>
+                    </h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />Hic dolor nihil odit saepe minima eius?</p>
+                    <button class="button_2">View Portfolio</button>
+                </div>
+                <div class="person">
+                    <img src="images/person.png" alt="person" />
+                </div>
+            </div>
+        </section>
+        <!--===== banner section end =====-->
+
+        <!--===== about section start =====-->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about_left">
+                            <img src="images/about.png" alt="person image" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about_right">
+                            <h2>About Me</h2>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti officia quam est modi quisquam iure provident quis odio vero ad quaerat enim ipsum quod dignissimos
+                                perspiciatis nostrum suscipit tempore at voluptates labore, recusandae itaque numquam.
+                            </p>
+                            <br />
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellendus asperiores atque, sunt aliquid magnam, tempore aut, hic est alias commodi iure iste officiis
+                                tempora?
+                            </p>
+                            <div class="skill">
+                                <div id="bar1" class="barfiller">
+                                    <span class="tip"></span>
+                                    <span class="fill" data-percentage="80"></span>
+                                </div>
+                                <div id="bar2" class="barfiller">
+                                    <span class="tip"></span>
+                                    <span class="fill" data-percentage="60"></span>
+                                </div>
+                                <div id="bar3" class="barfiller">
+                                    <span class="tip"></span>
+                                    <span class="fill" data-percentage="90"></span>
+                                </div>
+                            </div>
+                            <div class="donwload_signature">
+                                <button class="button_1">Download CV</button>
+                                <img src="images/signature.png" alt="signature" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== about section end =====-->
+
+        <!--===== services section start =====-->
+        <section id="specialized">
+            <div class="container">
+                <div class="section_heading">
+                    <h2>I'm Specialized In</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="skill_item">
+                            <span class="icon"><i class="fa-solid fa-pen-ruler"></i></span>
+                            <h3>Graphic Design</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ut doloribus fugit veniam voluptatem adipisci! Repudiandae harum aperiam non animi quisquam, nemo
+                                expedita hic velit?
+                            </p>
+                            <span class="projects">142 Projects</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="skill_item">
+                            <span class="icon"><i class="fa-solid fa-laptop-code"></i></span>
+                            <h3>Web Design</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ut doloribus fugit veniam voluptatem adipisci! Repudiandae harum aperiam non animi quisquam, nemo
+                                expedita hic velit?
+                            </p>
+                            <span class="projects">128 Projects</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="skill_item">
+                            <span class="icon"><i class="fa-solid fa-code-branch"></i></span>
+                            <h3>Web Development</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ut doloribus fugit veniam voluptatem adipisci! Repudiandae harum aperiam non animi quisquam, nemo
+                                expedita hic velit?
+                            </p>
+                            <span class="projects">116 Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== services section end =====-->
+
+        <!--===== portfolio section start =====-->
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="section_heading">
+                            <h2>Features <br />Projects</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="port_item">
+                            <img src="images/port_img_1.jpg" alt="portimage" />
+                            <div class="overlay">
+                                <a href="images/port_img_1.jpg" data-lightbox="image-1" data-title="My caption"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="port_item">
+                            <img src="images/port_img_2.jpg" alt="portimage" />
+                            <div class="overlay">
+                                <a href="images/port_img_2.jpg" data-lightbox="image-1" data-title="My caption"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="port_item">
+                            <img src="images/port_img_3.jpg" alt="portimage" />
+                            <div class="overlay">
+                                <a href="images/port_img_3.jpg" data-lightbox="image-1" data-title="My caption"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== portfolio section end =====-->
+
+        <!--===== working_process section start =====-->
+        <section id="working_process">
+            
+        </section>
+        <!--===== working_process section end =====-->
+
+        <!-- Back to top button -->
+        <div class="back-to-top">Back to Top</div>
 
         <!-- script js -->
         <script src="js/jquery-3.4.0.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/animated.headline.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/jquery.barfiller.js"></script>
+        <script src="js/lightbox.js"></script>
         <script src="js/slick.min.js"></script>
         <script src="js/all.min.js"></script>
         <script src="js/custom.js"></script>

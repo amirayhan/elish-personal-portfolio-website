@@ -7,8 +7,9 @@
 :root {
     --color1: #343434;
     --color2: #748182;
-    --color3: #f4f4f4;
-    --color4: #f7f7f7;
+    --color3: hsl(187, 7%, 75%);
+    --color4: #f4f4f4;
+    --color5: #f7f7f7;
     --font1: "Poppins", sans-serif;
     --font2: "Montserrat", sans-serif;
 }
@@ -27,7 +28,7 @@ h6 {
     font-weight: 700;
 }
 h1 {
-    font-size: 50px;
+    font-size: 65px;
 }
 h2 {
     font-size: 30px;
@@ -82,4 +83,287 @@ a {
     background: transparent !important;
     color: #343434 !important;
 }
+.button_1 {
+    padding: 10px 25px;
+    background: transparent;
+    color: var(--color1);
+    font-size: 13px;
+    border: 1px solid var(--color1);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.button_1:hover {
+    background-color: var(--color1);
+    color: #fff;
+}
+.button_2 {
+    padding: 10px 25px;
+    background: #fff;
+    color: var(--color1);
+    font-size: 13px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.button_2:hover {
+    background-color: transparent;
+    color: #fff;
+}
 /* common css end */
+
+/* header css start */
+
+.navbar .navbar-brand {
+    color: var(--color1);
+    font-family: var(--font1);
+    font-weight: 700;
+    font-size: 20px;
+}
+.navbar .navbar-nav {
+    margin-top: 0 !important;
+}
+.navbar .navbar-nav .nav-item {
+    padding-left: 20px;
+}
+navbar .navbar-nav .nav-item .nav-link {
+    font-size: 14px !important;
+}
+.navbar .social_media {
+    margin-top: 15px;
+}
+.navbar .social_media li a span {
+    width: 40px;
+    height: 40px;
+    color: var(--color1);
+    background: #dfdfdf;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.navbar .social_media li:last-child {
+    margin-top: 7px;
+}
+/* header css end */
+
+/* banner css start */
+#banner {
+    padding-top: 200px;
+    padding-bottom: 170px;
+    background: url(../images/banner.jpg) no-repeat center/cover;
+    position: relative;
+}
+#banner .banner_content h3 {
+    color: #fff;
+}
+#banner .banner_content h1 {
+    color: #fff;
+}
+#banner .banner_content h2 {
+    color: #fff;
+    font-size: 30px;
+}
+#banner .banner_content p {
+    color: #fff;
+}
+#banner .person {
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    width: 350px;
+}
+#banner .cd-headline {
+    font-weight: 400;
+}
+#banner .cd-words-wrapper b {
+    font-weight: 400 !important;
+}
+#banner .banner_content p {
+    padding-bottom: 15px;
+}
+/* banner css end */
+
+/* about css start */
+#about {
+    padding-top: 120px;
+}
+#about .about_left {
+    text-align: center;
+}
+#about .about_left img {
+    width: 400px;
+}
+.barfiller {
+    width: 100%;
+    height: 30px;
+    background: #fcfcfc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+}
+
+.barfiller .fill {
+    display: block;
+    position: relative;
+    width: 0px;
+    height: 100%;
+    background: var(--color1) !important;
+    z-index: 1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.barfiller .tipWrap {
+    display: none;
+}
+
+.barfiller .tip {
+    position: absolute;
+    padding-top: 5px;
+    padding-left: -30px;
+    font-size: 11px;
+    color: #fff;
+    left: 0;
+    margin-right: 10px;
+    z-index: 2;
+}
+#about .about_right .donwload_signature button_1 {
+    float: left;
+}
+#about .about_right .donwload_signature img {
+    width: 120px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+/* about css end */
+
+/* specialized css start */
+#specialized {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: var(--color3);
+}
+#specialized .section_heading {
+    text-align: center;
+    margin-bottom: 80px;
+}
+#specialized .skill_item {
+    background: var(--color4);
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+#specialized .skill_item span.icon {
+    font-size: 50px;
+}
+#specialized .skill_item span.projects {
+    font-weight: 600;
+    background: #fff;
+    padding: 7px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+    transition: all linear 0.3s;
+}
+#specialized .skill_item:hover span.projects {
+    background: var(--color1);
+    color: #fff;
+}
+/* specialized css end */
+
+/* portfolio css start */
+#portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+#portfolio .section_heading {
+    text-align: center;
+    background: var(--color3);
+    width: 100%;
+    padding-top: 200px;
+    height: 95.4%;
+}
+#portfolio .section_heading h2 {
+    font-size: 50px;
+}
+
+#portfolio .port_item {
+    padding-bottom: 25px;
+    position: relative;
+}
+#portfolio .port_item:hover .overlay {
+    transform: scale(0.8);
+    opacity: 1;
+}
+
+#portfolio .port_item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95.4%;
+    background: rgba(0, 0, 0, 0.7);
+    transform: scale(1);
+    opacity: 0;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+#portfolio .port_item .overlay a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.929);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 80px;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #8a8a8a;
+    border-radius: 50%;
+    transition: all linear 0.3s;
+}
+#portfolio .port_item .overlay a:hover {
+    background: #fff;
+    color: var(--color1);
+}
+/* portfolio css end */
+
+/* back to top button */
+.back-to-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    background: #e8e8e8;
+    border: 2px solid #000;
+}
+.back-to-top:hover {
+    cursor: pointer;
+}
