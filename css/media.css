@@ -1,0 +1,142 @@
+/* extra small device start */
+
+@media (max-width: 575px) {
+    .navbar {
+        background: transparent;
+    }
+    .navbar .navbar-brand {
+        color: #fff;
+    }
+    .navbar .navbar-toggler span {
+        color: #fff;
+    }
+    .navbar .navbar-nav {
+        background: #fff;
+        text-align: center;
+    }
+    .navbar .navbar-nav .nav-item a:hover {
+        color: #fff;
+    }
+    .navbar .social_media {
+        display: none !important;
+    }
+    #banner {
+        padding-top: 150px;
+        padding-bottom: 120px;
+    }
+    #banner .person {
+        display: none;
+    }
+    #about {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    #specialized {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    #specialized .section_heading {
+        margin-bottom: 30px;
+    }
+    #specialized .skill_item {
+        margin-bottom: 30px;
+    }
+    #portfolio {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #portfolio .section_heading {
+        background: transparent;
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+}
+
+/* extra small device end */
+
+/* small device start */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar {
+        background: transparent;
+    }
+    .navbar .navbar-brand {
+        color: #fff;
+    }
+    .navbar .navbar-toggler span {
+        color: #fff;
+    }
+    .navbar .navbar-nav {
+        background: #fff;
+        text-align: center;
+    }
+    .navbar .navbar-nav .nav-item a:hover {
+        color: #fff;
+    }
+    .navbar .social_media {
+        display: none !important;
+    }
+    #banner {
+        padding-top: 150px;
+        padding-bottom: 120px;
+    }
+    #banner .person {
+        display: none;
+    }
+    #about {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    #specialized {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    #specialized .section_heading {
+        margin-bottom: 30px;
+    }
+    #specialized .skill_item {
+        margin-bottom: 30px;
+    }
+    #portfolio {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #portfolio .section_heading {
+        background: transparent;
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+}
+
+/* medium device end */
+@media (min-width: 768px) and (max-width: 991px) {
+    #banner .person {
+        display: none;
+    }
+    #specialized {
+        padding-bottom: 90px;
+    }
+    #specialized .section_heading {
+        margin-bottom: 30px;
+    }
+    #specialized .skill_item {
+        margin-bottom: 30px;
+    }
+    #portfolio {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #portfolio .section_heading {
+        padding-top: 125px;
+    }
+}
+
+/* large device start */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* large device end */

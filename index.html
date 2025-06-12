@@ -30,10 +30,13 @@
 
         <!-- custom css -->
         <link rel="stylesheet" href="css/style.css" />
+
+        <!-- media css -->
+        <link rel="stylesheet" href="css/media.css" />
     </head>
     <body>
         <!-- header section start -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="#">Elish.</a>
                 <button
@@ -45,7 +48,9 @@
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span class="navbar-toggler-icon"></span>
+                    <span>
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
@@ -114,7 +119,7 @@
         <section id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 d-none d-md-block d-lg-block">
                         <div class="about_left">
                             <img src="images/about.png" alt="person image" />
                         </div>
@@ -163,7 +168,7 @@
                     <h2>I'm Specialized In</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="skill_item">
                             <span class="icon"><i class="fa-solid fa-pen-ruler"></i></span>
                             <h3>Graphic Design</h3>
@@ -174,7 +179,7 @@
                             <span class="projects">142 Projects</span>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="skill_item">
                             <span class="icon"><i class="fa-solid fa-laptop-code"></i></span>
                             <h3>Web Design</h3>
@@ -185,7 +190,7 @@
                             <span class="projects">128 Projects</span>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="skill_item">
                             <span class="icon"><i class="fa-solid fa-code-branch"></i></span>
                             <h3>Web Development</h3>
@@ -205,12 +210,12 @@
         <section id="portfolio">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="section_heading">
                             <h2>Features <br />Projects</h2>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="port_item">
                             <img src="images/port_img_1.jpg" alt="portimage" />
                             <div class="overlay">
@@ -218,7 +223,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="port_item">
                             <img src="images/port_img_2.jpg" alt="portimage" />
                             <div class="overlay">
@@ -226,7 +231,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="port_item">
                             <img src="images/port_img_3.jpg" alt="portimage" />
                             <div class="overlay">
@@ -238,40 +243,6 @@
             </div>
         </section>
         <!--===== portfolio section end =====-->
-
-        <!--===== working_process section start =====-->
-        <section id="working_process"></section>
-        <!--===== working_process section end =====-->
-
-        <!--===== counter section start =====-->
-        <section id="coutner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="counter_item text-center">
-                            <span class="counter" data-target="7500" data-duration="2300">1,234,567.00</span>
-                            <h3>Finished Projects</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="counter_item text-center">
-                            <h3>Finished Projects</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="counter_item text-center">
-                            <h3>Finished Projects</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="counter_item text-center">
-                            <h3>Finished Projects</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--===== counter section end =====-->
 
         <!-- Back to top button -->
         <div class="back-to-top">Back to Top</div>
